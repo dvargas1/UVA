@@ -1,0 +1,20 @@
+ALGORITMO “FIBONACCI”
+
+VAR
+    a,b,c: INTEIRO
+
+INICIO
+    a = 34
+    b = 55
+
+    ESCREVA(a)
+    ESCREVA(b)
+
+    PARA i DE 3 ATE 1002 FACA
+        c = a + b
+        ESCREVA(c)
+        a = b
+        b = c
+    FIMPARA
+
+FIMALGORITMO
