@@ -10,7 +10,7 @@ int verificarSePar(int n) {
 
 int main() {
   int n1, n2;
-  int contadorPares;
+  int contadorPares = 0;
   printf("Digite o primeiro número: ");
   scanf("%d", &n1);
 
